@@ -1,10 +1,10 @@
-#Module 5: Data types 
+# Module 5: Data types 
 - Classification of data based on the type of values it holds. Eg.: float,int,str,etc.
-##Strings
+## Strings
 - Sequence of characters.
 - Built in data type.
 `msg="Hello World"`
-##string function and methods
+## string function and methods
 - len():returns length of string.
 ```
 >>> a="Hello World"
@@ -31,7 +31,7 @@
 >>> a.lstrip()
 'Hello  '
 ```
-##string methods
+## string methods
 - replace(): Replaces all occurances of a substring with another substring.
 ```
 >>> a="Hello"
@@ -39,7 +39,7 @@
 'Heo'
 ```
 
-##string slicing
+## string slicing
 String slicing allows one to extract a portion of string by specifying the starting and ending indices.
 `string[start:end:step]`
 
@@ -48,9 +48,9 @@ String slicing allows one to extract a portion of string by specifying the start
 'Hlo'
 ```
 
-##Introduction to List
+## Introduction to List
 - Collection data type that allows to store an ordered sequence of elements of different data types.
-###Functions
+### Functions
 - len():returns the number o elements in the sequence.
 ```
 >>> a=[1,2,3]
@@ -68,7 +68,7 @@ String slicing allows one to extract a portion of string by specifying the start
 >>> sorted(a)
 [2, 3, 4, 51, 51]
 ```
-###Methods
+### Methods
 - append():Adds an item to the list.
 ```
 >>> a=[1,2,3]
@@ -139,7 +139,7 @@ String slicing allows one to extract a portion of string by specifying the start
 >>> a
 [6, 4, 2, 2, 1]
 ```
-##Nested List
+## Nested List
 - List that have another list as an item.
 
 ```
@@ -147,21 +147,21 @@ String slicing allows one to extract a portion of string by specifying the start
 [1, 2, 3, [1, 2, 3]]
 ```
 
-##Intro to tuples and dictionaries
-###Tuples
+## Intro to tuples and dictionaries
+### Tuples
 - Tuples ar immutable collection of elements i.e they cannot be modified once created.
 - elements can be accessed as `<tuple_nam>[<index>]`
 ```
 >>> (1,2,3)
 (1, 2, 3)
 ```
-###Dictionary
+### Dictionary
 - Dictionaries are unordered collection of key-value pairs where each key is unique and and associated with a value.
 ```
 >>> {"apple":2,"mango":4}
 {'apple': 2, 'mango': 4}
 ```
-##Dictionary Methods
+## Dictionary Methods
 - clear(): Removes all items from the dictionary.
 
 - copy(): Returns a shallow copy.
@@ -226,14 +226,14 @@ dict_keys(['apple', 'mango', 'cherry'])
 >>> a.values()
 dict_values([1, 2, 3, None, 4, 5])
 ```
-##Sets
+## Sets
 Sets are collection of an unordered and unindexed datatype that has no duplicate elements.
 ```
 >>> a={1,2,3,257,257}
 >>> a
 {1, 2, 3, 257}
 ```
-###Methods of set
+### Methods of set
 - add(): Adds an item to the set.
 ```
 >>> a

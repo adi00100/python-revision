@@ -1,5 +1,5 @@
-#Module 7: Introduction to Functions
-##Creating Functions
+# Module 7: Introduction to Functions
+## Creating Functions
 - functions are created using `def` keyword.
 ```
 >>> def hello(name):
@@ -8,10 +8,10 @@
 >>> hello("Adithya")
 Hello Adithya
 ```
-##Parameters and Arguments
+## Parameters and Arguments
 - Parameters defines what a function takes as input.
 - Arguments are the actual values/input passed to the function.
-##Recursion
+## Recursion
 ```
 >>> def fact(a:int):
 ...     if(a<0):
@@ -28,7 +28,7 @@ Factorial of number <0 isn't possible
 >>> fact(0)
 1
 ```
-##Anonymous Function, lambdas
+## Anonymous Function, lambdas
 ```
 >>> a=lambda x:[i*i for i in x]
 >>> a(range(10))
@@ -53,9 +53,9 @@ Factorial of number <0 isn't possible
 >>> sq(a)
 [1, 4, 9, 16, 25]
 ```
-##Python Scopes
+## Python Scopes
 
-##Global
+### Global
 - Any variable defined or declared outside in the global namespace.
 - A variable can be defined global by using the global keyword inside a function but it must be invoked.
 ```
@@ -71,7 +71,7 @@ Factorial of number <0 isn't possible
 {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'a': (1, 2, 3, [4, 5, 6, 10, 100]), 'g1': 'global variable withot global keyword', 'test': <function test at 0x00000174963CF040>, 'g2': 'global variable with global keyword in test()'}
 >>>
 ```
-##Local
+### Local
 - Local variables are can be accessed and modified only within the functions they are defined.
 ```
 >>> def test():
@@ -85,7 +85,7 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'l_var' is not defined
 ```
-##nonlocal keywod
+### nonlocal keywod
 - In nested function if inner function wants to modify a variable that belongs to the outer scope then nonlocal can be used.
 ```
 >>> def outer():

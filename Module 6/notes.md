@@ -1,5 +1,5 @@
-#Module 6: Python Flow Control
-##If else and elif
+# Module 6: Python Flow Control
+## If else and elif
 ```
 >>> def check(a):
 ...     if(a>100):
@@ -16,7 +16,7 @@ Equals 100
 >>> check(0)
 Less than 100
 ```
-##pass:placeholder for function,conditinal statement,class,loop,etc.
+## pass:placeholder for function,conditinal statement,class,loop,etc.
 ```
 >>> def test():
 ...     pass
@@ -29,7 +29,7 @@ Less than 100
 ...
 ```
 
-##range:returns a generator that can produce a sequence of numbers.
+## range:returns a generator that can produce a sequence of numbers.
 `range(start,stop,step)`
 ```
 >>> a=range(0,10)
@@ -50,7 +50,7 @@ range(0, 10)
 9
 >>>
 ```
-##while and for loop and else
+## while and for loop and else
 ```
 >>> a=0
 >>> while(a<10):
@@ -91,7 +91,7 @@ range(0, 10)
 1-10 has ben displayed successfylly
 ```
 
-##Nesting Loops and Conditionals
+## Nesting Loops and Conditionals
 ```
 >>> for i in range(10):
 ...     for j in range(10):
@@ -110,7 +110,7 @@ Inner loop completed 7 times
 Inner loop completed 8 times
 Inner loop completed 9 times
 ```
-##Break and continue
+## Break and continue
 ```
 >>> for i in range(10):
 ...     print(i)
@@ -126,7 +126,7 @@ Inner loop completed 9 times
 4
 5
 ```
-##List comprehension
+## List comprehension
 ```
 >>> [i for i in range(10)]
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]

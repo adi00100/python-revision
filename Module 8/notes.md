@@ -1,5 +1,5 @@
-#Module 8: File Handling, Exception Handling
-##Context Managers
+# Module 8: File Handling, Exception Handling
+## Context Managers
 - Context managers are the objects that are used to manage resources for its proper allocation and releasing.
 - Any object that has `__enter__` and `__exit__` method implemented can be used as context manager. 
 - `__enter__` has the block of code that acquires the resources.
@@ -22,7 +22,7 @@ with File("temp","w") as f:
 ```
 - If any error occurs within the with block then the error is passed to the `__exit__`  function which does the error handling.
 
-##Reading and writing to Files
+## Reading and writing to Files
 - Writing to file using write and writelines.
 ```
 >>> ascii_lowercase
@@ -66,16 +66,16 @@ z
 
 >>>
 ```
-##Python Exception
+## Python Exception
 - Exception is a signal indicating that some error or unexpected behaviour has occured.
-###Built in exception types
+### Built in exception types
 - Exception: Base class for all exception. New exception may be created by inheriting this class.
 - FileNotFoundError
 - ImportError
 - IndexError: Raised when idex is not in range.
 - ValueError: Raised when the function recieves an argument of the right tyoe but of inappropriate value.
 -ZeroDivisionError
-##Defining custom excption
+## Defining custom excption
 ```
 class FactorialError(Exception):
     pass
@@ -97,7 +97,7 @@ $ python exception.py
 __main__.FactorialError: Factorial of negative numbers are undefined.
 ```
 
-##Exception Handling
+## Exception Handling
 - It is a mechanism that allows to handle any unexpected behaviour or errors.
 ```
 try:
