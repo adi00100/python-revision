@@ -76,7 +76,7 @@ Some key Features of OOP:
 ## Super keyword
 - In order to call a method that was overwritten in subclass super() is used.
 - Python maintains the priotiy to select which method needs to be executed, also known as method resolutuon order or MRO. The mro can be viewed as `<class_name>.mro()`
-- super() can take class name and object as the parameter. Python will call the method of suerclass of the passed class.
+- super() can take class name and object as the arguments. Python will resolve the method that occurs after the passed class as argument in the MRO.
 ```
 class A:
     def print(self):

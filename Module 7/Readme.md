@@ -101,5 +101,5 @@ NameError: name 'l_var' is not defined
 This is defined in inner scope
 This is defined in inner scope
 ```
-##Shadowing (Hiding Names)
+## Shadowing (Hiding Names)
 - Shadowing occurs when the local variabe has the same name as global variable. The variable in the global namespace gets hidden within the function.
