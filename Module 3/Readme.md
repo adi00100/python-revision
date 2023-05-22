@@ -53,7 +53,8 @@ False
 ```
 >>> a=0b110
 >>> b=0b001
->>> 
+>>> a&b
+0 
 ```
 - Bitwise OR(|)
 ```
@@ -123,5 +124,7 @@ comment
 >>> f"{first} {last}"
 'Adithya Pokharel'
 >>> "{} {}".format(first,last)
+'Adithya Pokharel'
+>>> "{f} {l}".format(f=first,l=last)
 'Adithya Pokharel'
 ```

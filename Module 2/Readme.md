@@ -18,7 +18,7 @@
 - Lexing: Process of breaking down codes to tokens.Same as in Lexical Analysis in interpreter section.
 ## Keywords
 - Keywords: Set of reserved words that have specific meaning and purpose in language. eg: in,and,not,from,is,with etc
-##Intro to REPL(Read-Evaluate-Print-Loop)
+## Intro to REPL(Read-Evaluate-Print-Loop)
 - It is a type of interactive shell that allows to enter python code in real time.
 - In windows open a command prompt and enter the command "py" or "python" to start a REPL shell.
 - One needs to enter each code line by line and may evaluate the output.

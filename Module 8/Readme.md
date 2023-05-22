@@ -29,7 +29,7 @@ with File("temp","w") as f:
 'abcdefghijklmnopqrstuvwxyz'
 >>> a=[i+"\n" for i in ascii_lowercase]
 >>> with open("temp","w") as file:
-...     file.write("Writing from lists")
+...     file.write("Writing from lists\n")
 ...     file.writelines(a)
 ```
 - Reading from a file
@@ -37,7 +37,8 @@ with File("temp","w") as f:
 >>> with open("temp","r") as file:
 ...     print(file.read())
 ...
-Writing from listsa
+Writing from lists
+a
 b
 c
 d
@@ -72,8 +73,8 @@ z
 - Exception: Base class for all exception. New exception may be created by inheriting this class.
 - FileNotFoundError
 - ImportError
-- IndexError: Raised when idex is not in range.
-- ValueError: Raised when the function recieves an argument of the right tyoe but of inappropriate value.
+- IndexError: Raised when index is not in range.
+- ValueError: Raised when the function recieves an argument of the right type but of inappropriate value.
 -ZeroDivisionError
 ## Defining custom excption
 ```

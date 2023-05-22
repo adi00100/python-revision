@@ -29,26 +29,23 @@ Less than 100
 ...
 ```
 
-## range:returns a generator that can produce a sequence of numbers.
+## range:returns a generator that can produce a sequence of numbers in the provided interval where the difference of two consecutive numbers is equal to step.
 `range(start,stop,step)`
 ```
->>> a=range(0,10)
->>> a
-range(0, 10)
+>>> a=range(0,20,2)
 >>> for i in a:
 ...     print(i)
 ...
 0
-1
 2
-3
 4
-5
 6
-7
 8
-9
->>>
+10
+12
+14
+16
+18
 ```
 ## while and for loop and else
 ```
@@ -76,7 +73,7 @@ range(0, 10)
 >>> for i in range(10):
 ...     print(i)
 ... else:
-...     print("1-10 has ben displayed successfylly")
+...     print("1-10 has ben displayed successfully")
 ...
 0
 1
@@ -88,7 +85,7 @@ range(0, 10)
 7
 8
 9
-1-10 has ben displayed successfylly
+1-10 has ben displayed successfully
 ```
 
 ## Nesting Loops and Conditionals
